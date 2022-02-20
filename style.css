@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+
+/* Fundo */
+body{
+    background: var(--backgrond);
+    color: var(--text-color);
+}
+
+.blur{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.blur{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Menu  */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 50px auto;
+}
+
+header > img{
+    margin-right: 14%;
+}
+
+header > ul{
+    display: flex;
+    gap: 32.43px;
+    margin-right: 120px;
+}
+
+header > ul > li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+header > p{
+    border: 1px solid var(--button);
+    border-radius: 6px;
+    padding: 11px 38px;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Title  */
+section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+section h1{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px; 
+}
+
+section h2{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    color: var(--button);
+}
+
+section img{
+    width: 99%;
+}
