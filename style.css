@@ -20,24 +20,12 @@ body{
     color: var(--text-color);
 }
 
-.blur{
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.blur{
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    z-index: -1;
+main{
+    background-image: url(./assets/blur-1.png), url(./assets/blur-1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Menu  */
@@ -98,5 +86,5 @@ section h2{
 }
 
 section img{
-    width: 99%;
+    width: 100%;
 }
